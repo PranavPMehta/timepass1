@@ -1,0 +1,4 @@
+include ':app', ':screensharemod'
+rootProject.name='Arishit_F'
+
+

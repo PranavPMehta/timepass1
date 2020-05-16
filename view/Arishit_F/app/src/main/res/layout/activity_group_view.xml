@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".group_view.group_view">
+
+        <RelativeLayout
+            android:id="@+id/image_layout"
+            android:layout_width="match_parent"
+            android:layout_height="250dp">
+
+            <ProgressBar
+                android:id="@+id/progress"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_centerInParent="true"
+                android:layout_margin="80dp"
+                android:indeterminateTint="#3d8af7"
+                android:visibility="visible" />
+
+            <ImageButton
+                android:id="@+id/group_image_edit"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_alignParentRight="true"
+                android:layout_margin="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:padding="5dp"
+                android:src="@drawable/ic_edit_black_24dp"
+                android:background="@drawable/button_group"
+                android:elevation="1dp" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/group_image"
+                android:layout_width="match_parent"
+                android:layout_centerInParent="true"
+                android:layout_height="250dp"
+                android:layout_margin="5dp"
+                android:elevation="10dp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/group_relative"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/image_layout">
+
+            <TextView
+                android:id="@+id/Group_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:text="Group Name "
+                android:textColor="@color/green_color_picker"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/group_name_edit"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:padding="7dp"
+                android:background="@drawable/button_group"
+                android:src="@drawable/ic_edit_black_24dp" />
+
+            <TextView
+                android:id="@+id/Group_Objective"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Group_name"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:text="Objective "
+                android:textColor="@color/blue_color_picker"
+                android:layout_marginBottom="10dp"
+                android:textSize="17sp" />
+
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/group_divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/group_relative"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="2dp"
+            android:background="@color/dark_grey" />
+
+        <RelativeLayout
+            android:id="@+id/group_member_tag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/group_divider"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Members"
+                android:textColor="@color/blue_color_picker"
+                android:textSize="17sp" />
+
+            <ImageView
+                android:id="@+id/group_member_edit"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:padding="7dp"
+                android:background="@drawable/button_group"
+                android:src="@drawable/ic_edit_black_24dp"/>
+
+        </RelativeLayout>
+
+        <ListView
+            android:id="@+id/group_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/group_member_tag" />
+
+</RelativeLayout>

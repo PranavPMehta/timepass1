@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".group_view.group_info_edit">
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/group_edit_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLength="64"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/rounded_edittext"
+        android:drawableLeft="@drawable/ic_supervisor_account_black_24dp"
+        android:hint="Group Name"
+        android:minWidth="300dp"
+        android:padding="7dp"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:textColor="#374f69"
+        android:textColorHint="#374f69" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/group_edit_objective"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLength="64"
+        android:layout_below="@id/group_edit_name"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/rounded_edittext"
+        android:drawableLeft="@drawable/ic_info_outline_black_24dp"
+        android:hint="Objective"
+        android:minWidth="300dp"
+        android:padding="7dp"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:textColor="#374f69"
+        android:textColorHint="#374f69" />
+
+    <Button
+        android:id="@+id/save_change"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/roundedbutton"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:text="Save"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:backgroundTint="#03b4ff"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ListView
+        android:id="@+id/contactListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="15dp"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="5dp"
+        android:orientation="vertical"></ListView>
+
+
+    <ImageButton
+        android:id="@+id/addGroup"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="20dp"
+        android:padding="8dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/button_group"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_group_add_black_24dp"/>
+
+    <ImageButton
+        android:id="@+id/addmember"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:scaleType="fitCenter"
+        android:padding="8dp"
+        android:layout_above="@id/addGroup"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/button_group"
+        android:src="@drawable/ic_person_add_black_24dp"
+        android:textSize="20sp"
+        android:outlineAmbientShadowColor="@color/dark_grey"
+        android:outlineSpotShadowColor="@color/dark_grey"/>
+
+
+</RelativeLayout>

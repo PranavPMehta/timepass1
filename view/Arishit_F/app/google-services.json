@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "256602143825",
+    "firebase_url": "https://arishti-88f86.firebaseio.com",
+    "project_id": "arishti-88f86",
+    "storage_bucket": "arishti-88f86.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:256602143825:android:98bcb7fbf69dba5e31cc70",
+        "android_client_info": {
+          "package_name": "com.example.rohit.arishit_f"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "256602143825-k3qt5cg91eus869o615a1ot060qfmvnl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rohit.arishit_f",
+            "certificate_hash": "8f55e6eaec84f832e5f6448c07653e44fef27f46"
+          }
+        },
+        {
+          "client_id": "256602143825-689s6dkrr1e0ebjn2u7o68t5kff58hqq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCChFKTGMOEPxLx_G1Z28vTGBbfmhfzU4A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "256602143825-689s6dkrr1e0ebjn2u7o68t5kff58hqq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

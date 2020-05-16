@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".videoCommunication.OngoingOneToOneVideoCallActivity">
+
+    <ImageView
+        android:id="@+id/recieverVideo"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_marginTop="62dp"
+        android:layout_marginBottom="319dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_person_black_24dp" />
+
+    <ImageView
+        android:id="@+id/senderVideo"
+        android:layout_width="112dp"
+        android:layout_height="161dp"
+        android:layout_marginStart="283dp"
+        android:layout_marginTop="419dp"
+        android:layout_marginBottom="151dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_person_outline_black_24dp" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/end_call"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="155dp"
+        android:layout_marginTop="496dp"
+        android:layout_marginBottom="135dp"
+        android:src="@drawable/end_video_call"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/speaker"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="615dp"
+        android:layout_marginEnd="295dp"
+        android:layout_marginBottom="46dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/speaker_icon" />
+
+    <ImageView
+        android:id="@+id/voip_call"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="155dp"
+        android:layout_marginTop="615dp"
+        android:layout_marginEnd="156dp"
+        android:layout_marginBottom="46dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/call_icon" />
+
+    <ImageView
+        android:id="@+id/microphone"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="295dp"
+        android:layout_marginTop="615dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="46dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/microphone" />
+</androidx.constraintlayout.widget.ConstraintLayout>

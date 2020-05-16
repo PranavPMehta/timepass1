@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="logocolor">#374f69</color>
+    <color name="switchRed">#E61610</color>
+    <color name="switchGreen">#72BB53</color>
+
+    <color name="black">#000000</color>
+    <color name="blue_color_picker">#0066FF</color>
+    <color name="brown_color_picker">#AF593E</color>
+    <color name="green_color_picker">#01A368</color>
+    <color name="orange_color_picker">#FF861F</color>
+    <color name="red_color_picker">#ED0A3F</color>
+    <color name="red_orange_color_picker">#FF3F34</color>
+    <color name="sky_blue_color_picker">#76D7EA</color>
+    <color name="violet_color_picker">#8359A3</color>
+    <color name="yellow_color_picker">#FBE870</color>
+    <color name="yellow_green_color_picker">#C5E17A</color>
+    <color name="tool_bg">#151414</color>
+    <color name="blue_light">#03b4ff</color>
+    <color name="icon_textgrey">#232121</color>
+    <color name="black_opaque">#FF434141</color>
+    <color name="icon_blue">#3d8af7</color>
+    <color name="menu_yellow">#fef6e9</color>
+    <color name="queAns_yellow">#fefac0</color>
+    <color name="queAns_blue">#e2f8ff</color>
+    <color name="dark_grey">#A6241E1E</color>
+
+    <color name="weak_error">#d50000</color>
+    <color name="medium_error">#64b5f6</color>
+    <color name="strong_error">#8bc34a</color>
+    <color name="vstrong_error">#558b2f</color>
+
+    <color name="message_selected">#8BF2FF</color>
+    <color name="message_deselected">#FFFFFF</color>
+
+    <color name="whiteTextColor">#fff</color>
+    <color name="primaryTextColor">#03b4ff</color>
+    <color name="loginBkColor">#f0f0f0</color>
+
+
+
+</resources>

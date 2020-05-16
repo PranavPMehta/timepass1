@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ans_relative"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_marginRight="15dp"
+    android:layout_marginLeft="15dp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/faq_answer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="20dp"
+        android:text="Answer"
+        android:textSize="15sp"/>
+
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/faq_answer_gif"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/border_image"
+        android:elevation="1dp"
+        android:layout_below="@id/faq_answer"
+        android:layout_margin="20dp"/>
+
+    <ProgressBar
+        android:id="@+id/progress"
+        android:layout_width="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/faq_answer"
+        android:indeterminateTint="#3d8af7"
+        android:layout_height="60dp"
+        android:layout_margin="90dp"
+        android:visibility="visible" />
+
+</RelativeLayout>

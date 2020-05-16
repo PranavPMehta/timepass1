@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp">
+    <Button
+        android:id="@+id/group_edit_add_member"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:text="Add Member"
+        android:background="@drawable/roundedbutton"
+        android:backgroundTint="#03b4ff"
+        android:textColor="#ffffffff"
+        android:layout_alignParentTop="true"/>
+
+    <Button
+        android:id="@+id/group_edit_remove_member"
+        android:layout_below="@id/group_edit_add_member"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="25dp"
+        android:text="Remove Member"
+        android:background="@drawable/roundedbutton"
+        android:backgroundTint="#03b4ff"
+        android:textColor="#ffffffff"/>
+    </RelativeLayout>
+</RelativeLayout>

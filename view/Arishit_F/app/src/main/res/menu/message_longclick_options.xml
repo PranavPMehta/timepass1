@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".login.chat.ChatPage">
+
+
+    <item
+        android:id="@+id/call"
+        android:icon="@drawable/ic_call_black_24dp"
+        android:title="Call"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/videocam"
+        android:icon="@drawable/ic_videocam_black_24dp"
+        android:title="Video Call"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/copy"
+        android:icon="@drawable/ic_content_copy_black_24dp"
+        android:title="Copy"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/forward"
+        android:icon="@drawable/forward"
+        android:title="Forward"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/delete"
+        android:icon="@drawable/ic_delete_black_24dp"
+        android:title="Call"
+        app:showAsAction="always" />
+
+    <!--<item
+        android:id="@+id/three_dots"
+        android:icon="@drawable/ic_more_vert_black_24dp"
+        android:title="More Options"
+        app:showAsAction="always"/>-->
+
+    <item
+        android:id="@+id/important"
+        android:orderInCategory="100"
+        android:title="Important" />
+
+    <item
+        android:id="@+id/hidemessage"
+        android:orderInCategory="100"
+        android:title="Hide Message" />
+
+    <item
+        android:id="@+id/ttl"
+        android:orderInCategory="100"
+        android:title="Time to Leave" />
+
+    <item
+        android:id="@+id/setsl"
+        android:orderInCategory="100"
+        android:title="Set Security Level" />
+
+    <item
+        android:id="@+id/info"
+        android:orderInCategory="100"
+        android:title="Information" />
+</menu>

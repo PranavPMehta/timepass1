@@ -1,0 +1,140 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rel_layout_left"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="#03b4ff">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#03b4ff"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/call1"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/profileimg" />
+
+            <ProgressBar
+                android:id="@+id/profile_progress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/call1"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="0dp" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_toLeftOf="@id/videocam"
+                android:layout_toRightOf="@id/call1">
+
+                <TextView
+                    android:id="@+id/userText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:text="Username"
+                    android:textColor="#ffffff"
+                    android:textColorHint="#374f69"
+                    android:textSize="20sp" />
+
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/videocam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="5dp"
+                android:layout_toLeftOf="@id/call"
+                android:layout_weight="4"
+                android:src="@drawable/ic_videocam_black_35dp" />
+
+            <ImageView
+                android:id="@+id/call"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="5dp"
+                android:layout_toLeftOf="@id/chat_three_dots"
+                android:layout_weight="4"
+                android:paddingTop="5dp"
+                android:src="@drawable/ic_call_black_24dp" />
+
+            <ImageView
+                android:id="@+id/chat_three_dots"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="5dp"
+                android:paddingTop="5dp"
+                android:src="@drawable/ic_more_vert_black_24dp" />
+
+
+            <!--<ImageView
+                android:id="@+id/threedots"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:paddingTop="30dp"
+                android:src="@drawable/ic_more_vert_black_24dp" />-->
+
+        </RelativeLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+    <include
+        android:id="@+id/searchLayoutChatPage"
+        layout="@layout/search_chat_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_below="@id/toolbar"
+        android:visibility="invisible" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/messages"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/MessageLayoutChatPage"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/searchLayoutChatPage"
+        android:layout_weight="20"
+        android:background="#ffffff"></androidx.recyclerview.widget.RecyclerView>
+
+    <include
+        android:id="@+id/MessageLayoutChatPage"
+        layout="@layout/messagelayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="5dp" />
+
+    <include
+        android:id="@+id/BlockedMessagelayout"
+        layout="@layout/blocked_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentBottom="true"
+        android:visibility="invisible" />
+
+</RelativeLayout>
+
+

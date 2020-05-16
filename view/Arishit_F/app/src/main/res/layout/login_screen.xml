@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_shape_bk"
+    tools:context=".login.LoginScreen">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/logintext"
+            style="@style/headerTextPrimary"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="40dp"
+            android:text="LOGIN"
+            android:textColor="@color/whiteTextColor"
+            android:textSize="25dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="600dp"
+            android:layout_below="@id/logintext"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginBottom="50dp"
+            android:background="@drawable/ic_transparentloginsvg">
+
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="35dp"
+                android:text="USERNAME"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/edit_uid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView2"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="25dp"
+                android:drawableLeft="@drawable/user"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/edit_uid"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="20dp"
+                android:text="PASSWORD"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/edit_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView3"
+                android:layout_alignStart="@+id/edit_uid"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="25dp"
+                android:drawableLeft="@drawable/locked"
+                android:inputType="textPassword" />
+
+            <CheckBox
+                android:id="@+id/checkBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/edit_password"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="10dp"
+                android:textSize="12sp"
+                android:text="REMEMBER ME" />
+
+            <TextView
+                android:id="@+id/forgotPasswordText"
+                style="@style/viewParent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="25dp"
+                android:layout_below="@+id/edit_password"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="17dp"
+                android:clickable="true"
+                android:textSize="12sp"
+                android:text="Forgot Password?"
+                android:textColor="@color/primaryTextColor" />
+
+            <Button
+                android:id="@+id/login_button"
+                style="@style/loginButton"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_below="@id/forgotPasswordText"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="25dp"
+                android:text="Login" />
+
+            <ImageButton
+                android:id="@+id/face_button"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_above="@id/register_text"
+                android:layout_marginStart="35dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/white"
+                android:clickable="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/face" />
+
+            <TextView
+                android:id="@+id/register_text"
+                style="@style/parent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/signup_button"
+                android:layout_centerHorizontal="true"
+                android:layout_marginEnd="56dp"
+                android:layout_marginBottom="10dp"
+                android:text="Dont't have an account?"
+                android:textColor="@color/primaryTextColor" />
+
+            <Button
+                android:id="@+id/signup_button"
+                style="@style/loginButton"
+                android:layout_height="40dp"
+                android:layout_width="120dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="25dp"
+                android:text="Register" />
+        </RelativeLayout>
+    </RelativeLayout>
+</ScrollView>
+
+
+

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginui2"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/notify_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_password"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="25dp"
+        android:fontFamily="Arial"
+        android:paddingLeft="65dp"
+        android:paddingRight="65dp"
+        android:text="Create"
+        android:textSize="20dp"
+
+        android:textColor="#fff"
+        android:background="#374F69"/>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="170dp"
+        android:gravity="center"
+        android:text="Set a Meeting"
+        android:textSize="30sp"/>
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/edit_members"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_agenda"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="20dp"
+        android:alpha="0.6"
+        android:drawableLeft="@drawable/ic_group_black_24dp"
+        android:hint="Members"
+        android:minWidth="250dp"
+        android:padding="7dp"
+        android:textAlignment="center"
+        android:textColor="#374f69"
+        android:textColorHint="#374f69" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/edit_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_members"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="20dp"
+        android:alpha="0.6"
+        android:drawableLeft="@drawable/ic_date_range_black_24dp"
+        android:hint="Date"
+        android:minWidth="250dp"
+        android:padding="7dp"
+        android:textAlignment="center"
+        android:textColor="#374f69"
+        android:textColorHint="#374f69"
+        android:visibility="invisible"/>
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/edit_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_date"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="20dp"
+        android:alpha="0.6"
+        android:drawableLeft="@drawable/ic_timer_b_24dp"
+        android:hint="Time"
+        android:minWidth="250dp"
+        android:padding="7dp"
+        android:textAlignment="center"
+        android:textColor="#374f69"
+        android:visibility="invisible"
+        android:textColorHint="#374f69" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/edit_agenda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="25dp"
+        android:layout_below="@id/title"
+        android:layout_marginTop="50dp"
+        android:alpha="0.6"
+        android:drawableLeft="@drawable/ic_description_black_24dp"
+        android:hint="Agenda"
+        android:minWidth="250dp"
+        android:padding="7dp"
+        android:textAlignment="center"
+        android:textColor="#374f69"
+        android:textColorHint="#374f69" />
+
+    <TextView
+        android:id="@+id/dateText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_members"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="20dp"
+        android:alpha="0.6"
+        android:textSize="18sp"
+        android:text="Set Date"
+        android:minWidth="125dp"
+        android:padding="7dp"
+        android:textAlignment="center"
+        android:textColor="#374f69"/>
+
+
+    <TextView
+        android:id="@+id/timeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dateText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="20dp"
+        android:alpha="0.6"
+        android:text="Set Time"
+        android:minWidth="125dp"
+        android:padding="7dp"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:textColor="#374f69"/>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@id/edit_members"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="5dp"
+        android:layout_toStartOf="@+id/dateText"
+        android:alpha="0.6"
+        android:src="@drawable/ic_date_range_black_24dp" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@id/dateText"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="5dp"
+        android:layout_toStartOf="@+id/dateText"
+        android:alpha="0.6"
+        android:src="@drawable/ic_timer_b_24dp" />
+
+</RelativeLayout>

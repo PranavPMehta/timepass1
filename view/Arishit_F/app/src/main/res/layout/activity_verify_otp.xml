@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginui2"
+    android:visibility="visible"
+    tools:context=".registration.otp.VerifyOtp">
+
+
+    <TextView
+        android:id="@+id/otpText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="210dp"
+        android:text="Enter OTP"
+        android:textSize="25sp" />
+
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/mobileOTP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="20dp"
+        android:alpha="0.6"
+        android:drawableLeft="@drawable/ic_call_black_24dp"
+        android:hint="Mobile"
+        android:minWidth="250dp"
+        android:padding="7dp"
+        android:textAlignment="center"
+        android:textColor="#374f69"
+        android:visibility="gone"
+        android:textColorHint="#374f69" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/emailOTP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mobileOTP"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="20dp"
+        android:alpha="0.6"
+        android:drawableLeft="@drawable/ic_email_black_24dp"
+        android:hint="Email"
+        android:minWidth="250dp"
+        android:padding="7dp"
+        android:textAlignment="center"
+        android:textColor="#374f69"
+        android:textColorHint="#374f69" />
+
+    <TextView
+        android:id="@+id/timeremain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="54dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="65dp"
+        android:layout_marginBottom="50dp"
+        android:elevation="2dp"
+        android:textColor="@color/red_color_picker"
+        android:textSize="20sp"
+        android:visibility="visible"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/otpNextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:fontFamily="Arial"
+        android:background="@drawable/button_style"
+        android:paddingLeft="65dp"
+        android:paddingRight="65dp"
+        android:text="NEXT"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+</RelativeLayout>

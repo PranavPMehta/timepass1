@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        tools:context=".task.Task">
+
+    <ImageView
+        android:id="@+id/work_in_progress1"
+        android:layout_width="wrap_content"
+        android:layout_height="125dp"
+        android:layout_marginTop="200dp"
+        android:src="@drawable/work_in_progress"/>
+
+    <TextView
+        android:id="@+id/frag_three"
+        android:layout_width="295dp"
+        android:layout_height="32dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="360dp"
+        android:background="@drawable/white"
+        android:text="Upcoming in next version"
+        android:textSize="25sp" />
+   <!-- <Button
+        android:id="@+id/btnScreenSharing"
+        android:layout_width="50dp"
+        android:layout_height="56dp"
+        android:background="@drawable/add"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.916"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.958" />-->
+
+    <!--    <Button-->
+    <!--        android:id="@+id/btnScreenSharing"-->
+    <!--        android:layout_width="197dp"-->
+    <!--        android:layout_height="31dp"-->
+    <!--        android:background="#374F69"-->
+    <!--        android:text="Screen Sharing"-->
+    <!--        android:textColor="#FFF"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="0.219"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"-->
+    <!--        app:layout_constraintVertical_bias="0.958" />-->
+
+    <!--<ListView
+        android:id="@+id/callHistoryList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />-->
+</FrameLayout>

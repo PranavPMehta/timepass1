@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login.ProfilePage">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/capture_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/profile_img"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="70dp"
+            android:background="@drawable/rounded_logocolor_background"
+            android:fontFamily="@font/montserrat"
+            android:paddingLeft="20dp"
+            android:paddingTop="5dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="5dp"
+            android:text="Take a photo"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/next_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/capture_btn"
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="70dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/rounded_logocolor_background"
+            android:fontFamily="@font/montserrat"
+            android:paddingLeft="20dp"
+            android:paddingTop="5dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="5dp"
+            android:text="Next"
+            android:textColor="@android:color/white"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/text_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_2"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="2dp"
+            android:fontFamily="@font/montserrat"
+            android:text="It would ask you to capture several photos"
+            android:textColor="@android:color/darker_gray" />
+
+        <TextView
+            android:id="@+id/text_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_3"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="2dp"
+            android:text="of your face"
+            android:textColor="@android:color/darker_gray" />
+
+        <TextView
+            android:id="@+id/text_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/toolbar"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/montserrat"
+            android:gravity="center"
+            android:text="Help us identify you !"
+            android:textColor="@android:color/black"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/text_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_1"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/montserrat"
+            android:text="Hold on we are training us to identify you !"
+            android:textColor="@android:color/darker_gray" />
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#374f69"
+            android:textAlignment="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/montserrat"
+                android:text="Profile"
+                android:textColor="@android:color/white"
+                android:textSize="25dp" />
+        </androidx.appcompat.widget.Toolbar>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_img"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/text_4"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/profileimg" />
+    </RelativeLayout>
+</ScrollView>

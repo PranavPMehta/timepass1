@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/activity_main"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <cdflynn.android.library.checkview.CheckView
+        android:id="@+id/check"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        app:checkView_strokeColor="@color/green"
+        app:checkView_strokeWidth="@dimen/check_stroke_width"
+        />
+
+    <Button
+        android:id="@+id/next_button_fiu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/check"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/rounded_logocolor_background"
+        android:fontFamily="@font/montserrat"
+        android:paddingLeft="20dp"
+        android:paddingTop="5dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="5dp"
+        android:text="Next"
+        android:textColor="@android:color/white"
+        android:visibility="visible" />
+
+</RelativeLayout>

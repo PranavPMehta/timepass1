@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".videoCommunication.OngoingGroupVideoCallActivity">
+
+    <ImageView
+        android:id="@+id/video_call_group_mute"
+        android:layout_width="90dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="615dp"
+        android:layout_marginEnd="110dp"
+        android:layout_marginBottom="46dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/microphone" />
+
+    <ImageView
+        android:id="@+id/video_call_group_add_participant"
+        android:layout_width="90dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="305dp"
+        android:layout_marginTop="615dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="46dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_person_add_black_24dp" />
+
+    <ImageView
+        android:id="@+id/group_video_call_voip"
+        android:layout_width="90dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="121dp"
+        android:layout_marginTop="615dp"
+        android:layout_marginEnd="200dp"
+        android:layout_marginBottom="46dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/call_icon" />
+
+    <ImageView
+        android:id="@+id/group_videocall_speaker"
+        android:layout_width="90dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="615dp"
+        android:layout_marginEnd="290dp"
+        android:layout_marginBottom="46dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/speaker_icon" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/group_video_end_call"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="507dp"
+        android:layout_marginBottom="124dp"
+        android:src="@drawable/end_video_call"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/videoParticipant2"
+        android:layout_width="170dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="211dp"
+        android:layout_marginTop="62dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="469dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_person_black_24dp" />
+
+    <ImageView
+        android:id="@+id/videoParticipant3"
+        android:layout_width="170dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="291dp"
+        android:layout_marginEnd="131dp"
+        android:layout_marginBottom="240dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_person_black_24dp" />
+
+    <ImageView
+        android:id="@+id/videoParticipant1"
+        android:layout_width="170dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="62dp"
+        android:layout_marginEnd="241dp"
+        android:layout_marginBottom="469dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_person_black_24dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".login.chat.ChatPage"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Block"
+        android:icon="@drawable/ic_close_black_24dp"
+        android:id="@+id/block_chat"/>
+    <item
+        android:title="Unblock"
+        android:visible="false"
+        android:id="@+id/unblock_chat"/>
+    <item
+        android:title="Time To Live"
+        android:id="@+id/ttl_chat"/>
+<!--    <item-->
+<!--        android:title="Set Security Level"-->
+<!--        android:id="@+id/ssl_chat"/>-->
+    <item
+        android:title="Search"
+        android:id="@+id/search_chat"/>
+</menu>

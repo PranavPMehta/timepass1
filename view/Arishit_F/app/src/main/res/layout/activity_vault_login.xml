@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".vault.vault_login">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/etPassword"
+        android:layout_width="wrap_content"
+        android:inputType="textPassword"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_uid"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="15dp"
+        android:alpha="0.6"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/rounded_edittext"
+        android:drawableLeft="@drawable/ic_lock_outline_black_24dp"
+        android:hint="Enter Password"
+        android:minWidth="250dp"
+        android:paddingLeft="7dp"
+        android:paddingTop="8dp"
+        android:paddingRight="7dp"
+        android:paddingBottom="8dp"
+        android:textAlignment="center"
+        android:textColor="#374f69"
+        android:textColorHint="#374f69"
+        android:imeOptions="actionSend"/>
+
+</LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Profile"
+        android:id="@+id/profile_menu"/>
+
+    <item
+        android:title="Notification"
+        android:id="@+id/notification_menu"/>
+    <item
+        android:title="Privacy"
+        android:id="@+id/privacy_menu"/>
+
+    <item
+        android:title="App Info"
+        android:id="@+id/app_info_menu"/>
+</menu>

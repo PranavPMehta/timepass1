@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    >
+    <TextView
+        android:id="@+id/ques"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What is the Module about ? "
+        android:textSize="18sp"
+        android:textColor="#FFF"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:padding="5dp"
+        android:layout_marginStart="10dp"/>
+    <EditText
+        android:id="@+id/answer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Answer By Manager"
+        android:textColorHint="#FFF"
+        android:backgroundTint="#000"
+        android:textColor="#FFF"
+        android:layout_marginTop="10dp"
+
+        android:padding="5dp"
+        android:layout_marginStart="10dp"/>
+    <Button
+        android:id="@+id/ansbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Answer"
+        android:textColor="#FFF"
+        android:background="#647b97"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="150dp"/>
+</LinearLayout>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/intro_img"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+
+        android:layout_marginTop="200dp"
+        android:contentDescription="@string/app_name"
+        tools:srcCompat="@tools:sample/avatars" />
+
+
+    <TextView
+        android:id="@+id/intro_title"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+
+        android:layout_below="@+id/intro_img"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:gravity="center"
+
+        android:text="@string/app_name"
+        android:textColor="#374F69"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/intro_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/intro_title"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:gravity="center"
+        android:layout_marginBottom="0dp"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+        android:textColor="#374f69"
+        android:textSize="18sp"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:id="@+id/developed_by"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/intro_description"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:text="Developed by Arishti"
+        android:layout_margin="25dp"
+        android:textColor="@color/dark_grey"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
+
+    <!--</androidx.constraintlayout.widget.ConstraintLayout>-->
+
+    <!--    <?xml version="1.0" encoding="utf-8"?>-->
+    <!--<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent">-->
+
+    <!--<ImageView-->
+    <!--    android:id="@+id/intro_img"-->
+    <!--    android:layout_width="200dp"-->
+    <!--    android:layout_height="230dp"-->
+    <!--    app:layout_constraintBottom_toTopOf="@+id/intro_title"-->
+    <!--    app:layout_constraintEnd_toEndOf="parent"-->
+    <!--    app:layout_constraintStart_toStartOf="parent"-->
+    <!--    app:layout_constraintTop_toTopOf="parent"-->
+    <!--    app:layout_constraintVertical_bias="0.872"-->
+    <!--    tools:srcCompat="@tools:sample/avatars" />-->
+
+    <!--<TextView-->
+    <!--    android:id="@+id/intro_description"-->
+    <!--    android:layout_width="0dp"-->
+    <!--    android:layout_height="wrap_content"-->
+    <!--    android:layout_marginStart="32dp"-->
+    <!--    android:layout_marginTop="8dp"-->
+    <!--    android:layout_marginEnd="32dp"-->
+    <!--    android:layout_marginBottom="8dp"-->
+    <!--    android:gravity="center"-->
+    <!--    android:lineSpacingExtra="16dp"-->
+    <!--    android:text="TextView"-->
+    <!--    android:textSize="18sp"-->
+    <!--    android:textColor="#374f69"-->
+    <!--    android:textAlignment="center"-->
+    <!--    app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--    app:layout_constraintEnd_toEndOf="parent"-->
+    <!--    app:layout_constraintHorizontal_bias="1.0"-->
+    <!--    app:layout_constraintStart_toStartOf="parent"-->
+    <!--    app:layout_constraintTop_toBottomOf="@+id/intro_title"-->
+    <!--    app:layout_constraintVertical_bias="0.146" />-->
+
+    <!--<TextView-->
+    <!--    android:id="@+id/intro_title"-->
+    <!--    android:layout_width="wrap_content"-->
+    <!--    android:layout_height="wrap_content"-->
+    <!--    android:layout_marginStart="16dp"-->
+    <!--    android:layout_marginEnd="16dp"-->
+    <!--    android:layout_marginBottom="248dp"-->
+    <!--    android:gravity="center"-->
+    <!--    android:text="TextView"-->
+    <!--    android:textStyle="bold"-->
+    <!--    android:textSize="30sp"-->
+    <!--    android:textColor="#374F69"-->
+
+    <!--    android:shadowColor="#647b97"-->
+    <!--    android:shadowRadius="3"-->
+    <!--    android:shadowDy="4"-->
+    <!--    android:shadowDx="6"-->
+
+    <!--    app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--    app:layout_constraintEnd_toEndOf="parent"-->
+    <!--    app:layout_constraintHorizontal_bias="0.534"-->
+    <!--    app:layout_constraintStart_toStartOf="parent" />-->
+    <!--</androidx.constraintlayout.widget.ConstraintLayout>-->

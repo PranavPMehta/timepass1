@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="Main Menu"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_more_vert_black_24dp"
+        >
+        <menu>
+            <item
+                android:id="@+id/profile"
+                android:icon="@drawable/profile_menu"
+                android:title="Profile"
+                android:visible="true"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/notification"
+                android:icon="@drawable/notification"
+                android:title="Notification"
+                android:visible="true"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/setting"
+                android:checkable="false"
+                android:icon="@drawable/settings"
+                android:title="Settings"
+                android:visible="true"
+                app:showAsAction="never" />
+
+            <item
+                android:id="@+id/faq"
+                android:icon="@drawable/faqs"
+                android:title="FAQs"
+                android:visible="true"
+                app:showAsAction="never" />
+
+            <item
+                android:id="@+id/feedback"
+                android:checkable="false"
+                android:icon="@drawable/feedback"
+                android:title="Feedback"
+                android:visible="true"
+                app:showAsAction="never" />
+        </menu>
+    </item>
+</menu>

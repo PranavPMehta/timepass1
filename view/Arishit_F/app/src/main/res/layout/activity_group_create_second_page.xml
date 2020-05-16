@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".group_create.group_create_second_page">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="25dp">
+
+        <TextView
+            android:id="@+id/group_create_second_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_margin="25dp"
+            android:text="Create group"
+            android:textColor="#000000"
+            android:textSize="25sp" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/group_create_second_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/group_create_second_text"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginBottom="10dp"
+            android:hint="Group name"
+            android:textColor="@color/green" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/group_create_second_objective"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/group_create_second_name"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginBottom="20dp"
+            android:hint="Group Objective"
+            android:textColor="@color/green" />
+
+        <TextView
+            android:id="@+id/group_create_second_imgname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/group_create_second_objective"
+            android:layout_marginLeft="30dp"
+            android:text="Group Picture"
+            android:textColor="@color/green"
+            android:textSize="18sp" />
+
+        <RelativeLayout
+            android:id="@+id/image_relative"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/group_create_second_imgname"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="60dp">
+
+            <ProgressBar
+                android:id="@+id/group_create_second_progress"
+                android:layout_width="match_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:indeterminateTint="#ffffff"
+                android:layout_height="80dp"
+                android:layout_margin="80dp"
+                android:elevation="5dp"
+                android:visibility="invisible" />
+
+
+            <ImageView
+                android:id="@+id/group_create_second_groupImage_add"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="65dp"
+                android:layout_marginRight="60dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:elevation="5dp"
+                android:background="@drawable/add_circle_addimage"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/group_create_second_groupImage"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:background="@drawable/ic_image_black_24dp"
+                android:backgroundTint="#9e9e9e" />
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/group_create_second_create_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/roundedbutton"
+            android:backgroundTint="#03b4ff"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:text="Create"
+            android:textColor="#ffffff" />
+    </RelativeLayout>
+</ScrollView>
