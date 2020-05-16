@@ -1,0 +1,166 @@
+[{
+  "_id": {
+    "$oid": "5e85d2e6cbdc5e4670169558"
+  },
+  "user_1": "SRK_358240051111110_1586530861364",
+  "user_2": "SK_358240051111110_1586530753316",
+  "chat_id": "SRK_358240051111110_1586530861364_SK_358240051111110_1586530753316",
+  "seqno": 284,
+  "chat": [
+    {
+      "is_deleted": "false",
+      "is_important": "false",
+      "is_confidential": "false",
+      "isReceived": true,
+      "isVault": false,
+      "_id": {
+        "$oid": "5ebea938ad63cda1b07695f6"
+      },
+      "id": "SRK_358240051111110_1586530861364_SK_358240051111110_1586530753316_283",
+      "timestamp": "Fri May 15 2020 20:07:44 GMT+0530 (India Standard Time)",
+      "user_id": "SRK_358240051111110_1586530861364",
+      "status": "success",
+      "location": "Mountain View, California",
+      "reference_id": "",
+      "msg": {
+        "data_type": "MESSAGE",
+        "data": "336020542367069",
+        "key_1": "nargXen6dgPkfLC3el35pA==",
+        "key_2": "pz7E1gE3fBM="
+      }
+    },
+    {
+      "is_deleted": "false",
+      "is_important": "false",
+      "is_confidential": "false",
+      "isReceived": true,
+      "isVault": false,
+      "_id": {
+        "$oid": "5ebea9ffad63cda1b07695f8"
+      },
+      "id": "SRK_358240051111110_1586530861364_SK_358240051111110_1586530753316_284",
+      "timestamp": "Fri May 15 2020 20:11:03 GMT+0530 (India Standard Time)",
+      "user_id": "SRK_358240051111110_1586530861364",
+      "status": "success",
+      "location": "Mountain View, California",
+      "reference_id": "",
+      "msg": {
+        "data_type": "MESSAGE",
+        "data": "16856935449142148",
+        "key_1": "dFz3d7CMZ0dhnmccePbkJlI/ihpASQLK",
+        "key_2": "QMRoZEX92Vc="
+      }
+    }
+  ],
+  "__v": 319
+},{
+  "_id": {
+    "$oid": "5eb25c2b12366f0e8c3b3945"
+  },
+  "user_1": "p_123_1588746631369",
+  "user_2": "SK_358240051111110_1586530753316",
+  "chat_id": "p_123_1588746631369_SK_358240051111110_1586530753316",
+  "seqno": 2,
+  "chat": [
+    {
+      "is_deleted": "false",
+      "is_important": "false",
+      "is_confidential": "false",
+      "isReceived": true,
+      "isVault": false,
+      "_id": {
+        "$oid": "5eb25c2b12366f0e8c3b3946"
+      },
+      "id": "p_123_1588746631369_SK_358240051111110_1586530753316_0",
+      "timestamp": "Wed May 06 2020 12:11:47 GMT+0530 (India Standard Time)",
+      "user_id": "p_123_1588746631369",
+      "status": "success",
+      "location": "Mountain View, California",
+      "reference_id": "",
+      "msg": {
+        "data_type": "MESSAGE",
+        "data": "027625452317391",
+        "key_1": "jybTjnKPUML0ZsvYz4PZug==",
+        "key_2": "UbzyH5QTRtU="
+      }
+    },
+    {
+      "is_deleted": "false",
+      "is_important": "false",
+      "is_confidential": "false",
+      "isReceived": false,
+      "isVault": false,
+      "_id": {
+        "$oid": "5eb54cd228ff70ac48b24b1f"
+      },
+      "id": "SK_358240051111110_1586530753316_p_123_1588746631369_1",
+      "timestamp": "Fri May 08 2020 17:43:06 GMT+0530 (India Standard Time)",
+      "user_id": "SK_358240051111110_1586530753316",
+      "status": "success",
+      "location": "Mountain View, California",
+      "reference_id": "",
+      "msg": {
+        "data_type": "MESSAGE",
+        "data": "61123396159",
+        "key_1": "+1OlxXBnEXtL/ZfmgYjPng==",
+        "key_2": "yBNFzbltHEU="
+      }
+    },
+    {
+      "is_deleted": "false",
+      "is_important": "false",
+      "is_confidential": "false",
+      "isReceived": false,
+      "isVault": false,
+      "_id": {
+        "$oid": "5eb54d0328ff70ac48b24b21"
+      },
+      "id": "SK_358240051111110_1586530753316_p_123_1588746631369_2",
+      "timestamp": "Fri May 08 2020 17:43:55 GMT+0530 (India Standard Time)",
+      "user_id": "SK_358240051111110_1586530753316",
+      "status": "success",
+      "location": "Mountain View, California",
+      "reference_id": "",
+      "msg": {
+        "data_type": "MESSAGE",
+        "data": "03505412451801627",
+        "key_1": "2S4NNJFpvz+tGVM9hPMFO/Ju1NCrORDJ",
+        "key_2": "SqK2WAEC/s0="
+      }
+    }
+  ],
+  "__v": 2
+},{
+  "_id": {
+    "$oid": "5eb25dbc12366f0e8c3b3947"
+  },
+  "user_1": "t1_123_1588747538052",
+  "user_2": "t2_123_1588747655519",
+  "chat_id": "t1_123_1588747538052_t2_123_1588747655519",
+  "seqno": 0,
+  "chat": [
+    {
+      "is_deleted": "false",
+      "is_important": "false",
+      "is_confidential": "false",
+      "isReceived": true,
+      "isVault": false,
+      "_id": {
+        "$oid": "5eb25dbc12366f0e8c3b3948"
+      },
+      "id": "t1_123_1588747538052_t2_123_1588747655519_0",
+      "timestamp": "Wed May 06 2020 12:18:28 GMT+0530 (India Standard Time)",
+      "user_id": "t1_123_1588747538052",
+      "status": "success",
+      "location": "Mountain View, California",
+      "reference_id": "",
+      "msg": {
+        "data_type": "MESSAGE",
+        "data": "504120756040071",
+        "key_1": "A41f3ttQ+VrHgNaqULz1BQ==",
+        "key_2": "WGIpqNq8ebU="
+      }
+    }
+  ],
+  "__v": 0
+}]

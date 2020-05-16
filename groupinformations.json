@@ -1,0 +1,28 @@
+[{
+  "_id": {
+    "$oid": "5eabaf90cd974f28d07be531"
+  },
+  "display_picture": {
+    "url": "/res/Testin/Testin_1588309900582.jpg"
+  },
+  "group_id": "T_1588309879789",
+  "group_name": "Testin",
+  "objective": "Demo Purpose",
+  "members": [
+    {
+      "_id": {
+        "$oid": "5eabaf90cd974f28d07be532"
+      },
+      "user_id": "SK_358240051111110_1586530753316"
+    },
+    {
+      "_id": {
+        "$oid": "5eabaf90cd974f28d07be533"
+      },
+      "user_id": "SRK_358240051111110_1586530861364"
+    }
+  ],
+  "admin": "SK_358240051111110_1586530753316",
+  "creation_timestamp": "1588309879789",
+  "__v": 0
+}]

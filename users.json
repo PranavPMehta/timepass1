@@ -1,0 +1,81 @@
+[{
+  "_id": {
+    "$oid": "5e9089c229b14b227cea5eba"
+  },
+  "Photos": {
+    "url": []
+  },
+  "display_picture": {
+    "url": "null"
+  },
+  "verified": "true",
+  "isonline": false,
+  "notify_islogin": true,
+  "profile_picture_visibility": 2,
+  "org_details_visibility": 0,
+  "email_visibility": 1,
+  "contact_details_visibility": 0,
+  "designation_visibility": 2,
+  "notify_message_receipts": 1,
+  "notify_new_message": true,
+  "notify_scheduled_meeting": true,
+  "notify_task_allocation": true,
+  "notify_app_update": true,
+  "Name": "Sushmita",
+  "user_id": "SK_358240051111110_1586530753316",
+  "Username": "SK",
+  "Organization": "VIT_vit.ac.in",
+  "Email": "sushmita@vit.ac.in",
+  "Mobile": "+19876543210",
+  "Designation": "Student",
+  "Password": "a88d5ba76b390f47c9029ca1e2a7335cd2ef4d9439c17613ee28d32af47689f7e443bba717619a158dcce98e017df10b784053fc40efe6b010c0f8f3e2588616",
+  "salt": "7b9bbf96fc0fe397",
+  "IMEI": "358240051111110",
+  "RegisterTS": "1586530753316",
+  "org_token": "SRK",
+  "user_org_id": "SK",
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZTkwODljMjI5YjE0YjIyN2NlYTVlYmEiLCJpYXQiOjE1ODk2MTU4ODd9.tKwW98Zo8l0Bv7LYUdaobF1gEQsCQ30Jjoc1CNe-zts",
+  "__v": 237,
+  "notification_token": "fsoQB6ujEPs:APA91bFO1sTXzfmBasAcaofzJW6qKGZQik_FQZc5JYduqw2I_ILXbUGPCAcqDUIxbuKVF-bB92vIlyOkYHkcEpYcPLzCUyl_M08upgox8_FwTlhouAvHrFg5w-ZUtlehcsEVvpSUHEy5",
+  "blocked_users": []
+},{
+  "_id": {
+    "$oid": "5e908a2e29b14b227cea5ebe"
+  },
+  "Photos": {
+    "url": []
+  },
+  "display_picture": {
+    "url": "null"
+  },
+  "verified": "true",
+  "isonline": "false",
+  "notify_islogin": true,
+  "profile_picture_visibility": 2,
+  "org_details_visibility": 0,
+  "email_visibility": 1,
+  "contact_details_visibility": 0,
+  "designation_visibility": 2,
+  "notify_message_receipts": 1,
+  "notify_new_message": true,
+  "notify_scheduled_meeting": true,
+  "notify_task_allocation": true,
+  "notify_app_update": true,
+  "Name": "SRK",
+  "user_id": "SRK_358240051111110_1586530861364",
+  "Username": "SRK",
+  "Organization": "VIT_vit.ac.in",
+  "Email": "srk@vit.ac.in",
+  "Mobile": "+19876543210",
+  "Designation": "Student",
+  "Password": "40f5d56c1c495b5cb84833a38ef9b6074de1810ff540fe8eb9f095a94ef53093c685aa4f3d42a163d2a84d91c618a4613c1c88eba352d9008f4e7fa28401aad9",
+  "salt": "d72b598b633b39b1",
+  "IMEI": "358240051111110",
+  "RegisterTS": "1586530861364",
+  "org_token": "SRK",
+  "user_org_id": "SRK",
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZTkwOGEyZTI5YjE0YjIyN2NlYTVlYmUiLCJpYXQiOjE1ODk1NTM0MTd9.vcd8zsiMpke8BHgdTmH0gbQhXtmH2g_wfABxwD77Uk0",
+  "__v": 65,
+  "blocked_users": [],
+  "notification_token": "ccMeZK2N6GY:APA91bHnckfDcE-GiTat5mOo03BncoEn-mKp9dIsJKZBKB5y4WL6WxnCXVd722oP8LHL2LfLpBFPX7eL9udbpnhpJtag5y0nbB8-_dQh_TOUTZRaKUwD7CdwN8Zny38KZFz1qTMw5MHm"
+}]

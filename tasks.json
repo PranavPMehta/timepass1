@@ -1,0 +1,17 @@
+[{
+  "_id": {
+    "$oid": "5e57f3b05c2c8c34f4680379"
+  },
+  "meeting_id": "rr6",
+  "for_whom": [
+    {
+      "_id": {
+        "$oid": "5e57f3b05c2c8c34f468037a"
+      },
+      "user": ""
+    }
+  ],
+  "title": "test",
+  "description": "test",
+  "__v": 0
+}]
